@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    padding: 20px;
+}
+
+#box1{
+    height: 50%;
+    width: 100%;
+    background-color: antiquewhite;
+    position: absolute;
+    bottom: -50%;
+}
+
+#image1{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+}

@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h3{
+    color: white;
+}
+#image1{
+    height: 200px;
+    width: 200px;
+}
+
+#box{
+    background: linear-gradient(transparent, black);
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: -50%;
+    display: flex;
+    justify-content: space-around;
+    transition: all ease 0.5s;
+}
+
+#image1:hover{
+    cursor: pointer;
+
+
+}
+
+.card:hover #box{
+bottom: 0;
+
+
+}
